@@ -11,19 +11,18 @@ int main()
     while (i <= n)
     {
         int j = 1;
-        // int value = i;
+        // int value = i; //formula 4
 
         while (i >= j)
         {
-            // cout << i;
-            // cout << "*";
-            // cout << value;
-            // cout << count;
-            // count++;
-            // value++;
+            // cout << i; // formula 2
+            // cout << "*"; // formula 1
+            // cout << value; //formula 4
+            // cout << count; // formula 3
+            // count++; // formula 3
+            // value++; //formula 4
             // cout << j;
-            cout << j;
-            // j++;
+            j++;
         }
         cout << endl;
         i++;
@@ -60,8 +59,3 @@ int main()
 // 4567
 // 56789
 
-// formula 5
-// 1
-// 21
-// 321
-// 4321
