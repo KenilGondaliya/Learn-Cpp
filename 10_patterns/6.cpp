@@ -5,25 +5,25 @@ using namespace std;
 int main()
 {
     int n = 5;
-    int i = 1;
+    int i = 0;
 
     while (i <= n)
     {
         int j = 1;
-        while (j <= n)
+        while (j <= i)
         {
-            cout << "*" << endl;
+            cout << i - j + 1;
             j++;
         }
-
-        cout << "*" << endl;
+        cout << endl;
+        i++;
     }
 
     return 0;
 }
 
-// *****
-// *****
-// *****
-// *****
-// *****
+// formula 5
+// 1
+// 21
+// 321
+// 4321

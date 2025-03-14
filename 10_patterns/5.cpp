@@ -9,21 +9,23 @@ int main()
 
     while (i <= n)
     {
-        int j = 1;
+        int j = i;
+
         while (j <= n)
         {
-            cout << "*" << endl;
+            cout << "*";
             j++;
         }
 
-        cout << "*" << endl;
+        cout << endl;
+        i++;
     }
 
     return 0;
 }
 
 // *****
-// *****
-// *****
-// *****
-// *****
+// ****
+// ***
+// **
+// *
