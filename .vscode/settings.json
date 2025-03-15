@@ -3,6 +3,7 @@
         "iostream": "cpp",
         "algorithm": "cpp",
         "iterator": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "ostream": "cpp"
     }
 }
