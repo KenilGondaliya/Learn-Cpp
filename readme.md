@@ -18,6 +18,11 @@
 6. 1207. Unique Number of Occurrences --> Easy
 
 
-## Questions binary Search
+## Questions binary Search // leetcode
+
+## Questions binary Search //code360 by CodingNinja
+
+First and Last Position of an Element In Sorted Array
+
 
  
