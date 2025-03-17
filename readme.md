@@ -21,12 +21,16 @@
 ## Questions binary Search // leetcode
 
 852. Peak Index in a Mountain Array  --> Medium
+69. Sqrt(x) --> Easy
+
 
 ## Questions binary Search //code360 by CodingNinja
 
 First and Last Position of an Element In Sorted Array
 Find Total Number of Accurence/element is Dublicate
-
-
+Search In Rotated Sorted Array
+Find Pivot in an array
+Allocate Books
+Painter's Partition Problem
 
  
