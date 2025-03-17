@@ -66,8 +66,14 @@ int main()
 {
     int odd[5] = {1, 3, 2, 5, 5};
 
-    cout << " First Occurrence of 5 is a " << firstOcc(odd, 5, 5) << endl;
-    cout << " Last Occurrence of 5 is a " << lastOcc(odd, 5, 5) << endl;
+    // cout << " First Occurrence of 5 is a " << firstOcc(odd, 5, 5) << endl;
+    // cout << " Last Occurrence of 5 is a " << lastOcc(odd, 5, 5) << endl;
+
+    int totalNum = (lastOcc(odd, 5, 5) - firstOcc(odd, 5, 5)) + 1;
+
+    cout << totalNum << endl;
 
     return 0;
 }
+
+// total num is find total number of element/accurence in array
