@@ -12,32 +12,18 @@ void displayArr(int arr[], int n)
 void insertionShort(int arr[], int n)
 {
 
-    int start = 1;
-    int end = n;
-
-    while (start < end)
+    for (int i = 1; i < n; i++)
     {
-        int temp = arr[start];
+        int temp = arr[i];
+        int j = i - 1;
 
-        cout << temp << endl;
-
-        int j = start - 1;
-
-        while (j >= 0)
+        while (j >= 0 && arr[j] > temp)
         {
-
-            cout << j << endl;
-            if (arr[j] > temp)
-            {
-                arr[j + 1] = arr[j];
-            }
-            else
-            {
-                break;
-            }
+            arr[j + 1] = arr[j]; 
+            j--;
         }
 
-        arr[j] = temp;
+        arr[j + 1] = temp; 
     }
 
     displayArr(arr, n);
