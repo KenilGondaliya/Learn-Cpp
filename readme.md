@@ -32,5 +32,8 @@ Search In Rotated Sorted Array
 Find Pivot in an array
 Allocate Books
 Painter's Partition Problem
+Selection Sort
+Bubble Sort
+Insertion Sort
 
  
