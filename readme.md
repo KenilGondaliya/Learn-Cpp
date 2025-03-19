@@ -1,3 +1,17 @@
+## vs code Besic question
+
+1. Binanry To Desimal
+2. Desimal To Binary
+3. Linear Search
+4. Febonacci
+5. MaxMin
+6. Sort 01 
+7. Sort 012 
+8. Sum for N number
+9. Swap ALternate
+10. Binary search
+
+
 ## LeatCode Quastions Solve
 
 ## some Besic Quastions //code360 by CodingNinja
