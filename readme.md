@@ -23,6 +23,7 @@
 5. Triplet sum 
 6. Sort 0 1 2 
 
+
 ## some Besic Quastions //leetcode
 1. 1281. Subtract the Product and Sum of Digits of an Integer --> Easy
 2. 191. Number of 1 Bits --> Easy
@@ -50,4 +51,25 @@ Selection Sort
 Bubble Sort
 Insertion Sort
 
- 
+## Questions Array //code360 by CodingNinja leetcode
+Reverse an Array
+Merge 2 sorted arrays
+Move zeroes to end
+Rotate arrays
+Check if rotated and sorted array
+Add arrays
+
+## Qusestions String // code360 by CodingNinja leetcode
+
+Length of String
+Reverse a String
+Check Palindrome
+125. Valid Palindrome //leetcode --> Easy
+Reverse words
+Maximum occurring character
+Remove all occurrences of substring
+Remove all adjacent duplicates
+String Compression
+Permutation in Strings
+Remove adjacent Duplicates
+
