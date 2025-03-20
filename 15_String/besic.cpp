@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -65,24 +66,64 @@ int getLength(char name[])
     return count;
 }
 
+char getMaxOccCharacter(string s)
+{
+    int arr[26] = {0};
+
+    // create an arr of coutn character
+    for (int i = 0; i < s.length(); i++)
+    {
+        char ch = s[i];
+
+        // lowerCase
+        int number = 0;
+        if (ch >= 'a' && ch <= 'z')
+        {
+            number = ch - 'a';
+        }
+        else
+        { // uperchase
+            number = ch - 'A';
+        }
+
+        arr[number]++;
+    }
+
+    int maxi = -1, ans = 0;
+    for (int i = 0; i < 26; i++)
+    {
+        if (maxi < arr[i])
+        {
+            ans = i;
+            maxi = arr[i];
+        }
+    }
+
+    char finalAns = 'a' + ans;
+    return finalAns;
+}
+
 int main()
 {
-    char name[20] = "Kenil";
+    // char name[20] = "Kenil";
 
-    int len = getLength(name);
+    // int len = getLength(name);
 
     // cout << getLength(name) << endl;
 
     // reverseString(name, len);
 
-    cout << checkPalindrom(name, len) << endl;
+    // cout << checkPalindrom(name, len) << endl;
+
+    string s = "test";
+
+    cout << getMaxOccCharacter(s);
 
     return 0;
 }
 
-
-//optimal code
-// #include <bits/stdc++.h> 
+// optimal code
+//  #include <bits/stdc++.h>
 
 // bool checkPalindrome(string s) {
 //     string filtered = "";
